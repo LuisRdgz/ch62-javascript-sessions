@@ -1,1 +1,19 @@
 
+.btn-group {
+    background-color: #3ea0e9;
+    color: #FFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 100px;
+    flex-direction: column;
+}
+
+.input-group {
+    flex-direction: column;
+    width: 100px;
+    text-align: center;
+}
