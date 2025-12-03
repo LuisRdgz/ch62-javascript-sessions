@@ -1,4 +1,5 @@
 // importación nombrada
+import { User } from "../models/User.js";
 import { changeLogo } from "./modules/changeLogo.js";
 import { changePrincipalTitle } from "./modules/changePrincipalTitle.js";
 import { alicelUser } from "./modules/literalObject.js";
@@ -12,3 +13,8 @@ changeLogo("./cat.jpg");
 console.log( alicelUser.getFullName());
 console.log( alicelUser );
 console.log( alicelUser.stringify());
+
+const fatima = new User("Fatima", "Orozco", 25, "fatima@gmail.com");
+const fernanda = new User("Fernanda", "Quevedo", 26, "fer@gmail.com");
+
+console.log( fernanda.greet() );
